@@ -1,5 +1,6 @@
 import Titulos from "./components/Titulos"
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   //aqui es donde podemos escribir logica
 
@@ -9,7 +10,7 @@ function App() {
     <>
       {/* aqui va el maquetado del componente */}
       {/* <Titulos aqui va los props></Titulos> */}
-      <Titulos nuevoTitulo='Este titulo fue creado con props' estado={true} />
+      <Titulos nuevoTitulo="Titulo hecho con Props"/>
     </>
   );
 }
